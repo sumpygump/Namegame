@@ -6,8 +6,8 @@ Your challenge this week is to create a lyrics generator for The Name Game song.
 
 This repository is the tests for the challenge.
 
-Clone the repo and run `phpunit` to run the tests.
-
-This assumes you already have phpunit installed globally on your machine.
+1. Clone this repo
+2. Run `composer update`
+3. Run `vendor/bin/phpunit` to run the tests.
 
 There are tests for 200 different names (taken from the top 100 names for males and females).
